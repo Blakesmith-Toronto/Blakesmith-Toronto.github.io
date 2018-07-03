@@ -1,0 +1,71 @@
+/**** SETUP ****/
+
+html, body, img {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+/**** NAV ****/
+
+
+
+
+/**** LANDING PAGE ****/
+#moto{
+  margin: 0;
+  padding: 0 2.5%;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  color: black;
+  margin-top: 2%;
+}
+
+#background {
+
+  width: 100%;
+  height: 100%;
+  background-image: url("pictures/Orange_Texture_Backround-01.png");
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    #background {
+         background-image: url("pictures/Orange_Texture_Backround-01.png");
+          background-size: cover;
+    }
+}
+
+#nav {
+  
+}
+
+#pics {
+
+  
+  width: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding: 5px 0px;
+  background-color: black;
+}
+
+
+#main_logo{
+  top: 1%;
+  left: 50%;
+  height: 180px;
+  width: 270px;
+  margin-left: -135px;
+  position: relative;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: -5px;
+
+}
+
