@@ -9,6 +9,7 @@ html, body, img {
 
 *{
   font-family: 'Anton', sans-serif;
+  z-index: 1;
 }
 /**** NAV ****/
 
@@ -26,14 +27,19 @@ html, body, img {
   margin: 0;
   color: black;
   margin-top: 2%;
+
 }
 
 #background {
 
   width: 100%;
-  height: 45%;
+  min-height: 45%;
   background-image: url("pictures/Orange_Texture_Backround-01.png");
   z-index: 1;
+  margin: 0;
+  
+
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -45,10 +51,13 @@ html, body, img {
 
 #pics {
   width: 100%;
-  margin-top: 0%;
+  margin-top: -16px;
   margin-left: 0%;
   padding: 5px 0px;
   background-color: black;
+  z-index: 1;
+  display: block;
+  
 }
 
 
