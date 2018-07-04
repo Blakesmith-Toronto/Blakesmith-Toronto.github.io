@@ -7,7 +7,9 @@ html, body, img {
   width: 100%;
 }
 
-
+*{
+  font-family: 'Anton', sans-serif;
+}
 /**** NAV ****/
 
 
@@ -29,7 +31,7 @@ html, body, img {
 #background {
 
   width: 100%;
-  height: 100%;
+  height: 45%;
   background-image: url("pictures/Orange_Texture_Backround-01.png");
   z-index: 1;
 }
@@ -37,17 +39,11 @@ html, body, img {
 @media only screen and (max-width: 600px) {
     #background {
          background-image: url("pictures/Orange_Texture_Backround-01.png");
-          background-size: cover;
+         background-size: cover;
     }
 }
 
-#nav {
-  
-}
-
 #pics {
-
-  
   width: 100%;
   margin-top: 0%;
   margin-left: 0%;
@@ -69,3 +65,25 @@ html, body, img {
 
 }
 
+.section {
+  text-align: center;
+  padding: 25px;
+  position: relative;
+
+}
+
+.section-light{
+  background-color: #f4f4f4; /*#6D8E61;*/
+  color: black;
+}
+
+.service_icon {
+  height: 150px;
+  width: 150px;
+  
+  
+}
+
+#drop_down {
+  color: black;
+}
