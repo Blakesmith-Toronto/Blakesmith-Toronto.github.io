@@ -94,23 +94,124 @@ secondary_l {
 
 .section {
   text-align: center;
-  padding: 25px;
+  padding: 20px 0px;
   position: relative;
 
 }
 
 .section-light{
+
   background-color: #f4f4f4; /*#6D8E61;*/
+  color: black;
+}
+
+.section-cheese{
+  background-image: url("pictures/Orange_Texture_Backround-01.png");
+  background-color: #d3d3d3;
   color: black;
 }
 
 .service_icon {
   height: 150px;
   width: 150px;
-  
+
   
 }
 
 #drop_down {
   color: black;
+}
+
+#menu-head{
+  
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  position: relative;
+  font-family: lato;
+}
+
+#services-head {
+  padding-bottom: 10px;
+  text-align: left;
+  margin-left: -11px;
+  text-decoration: underline;
+}
+
+#contact-head{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: right;
+  margin-right: -11px;
+  text-decoration: underline;
+}
+
+#new_button {
+  padding: 15px 40%;
+}
+
+.pic1, .pic2, .pic3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+.pic2 {
+  color: white;
+  min-height: 200px;
+  background-image: url("pictures/20170327_194957-1.jpg");
+  background-size: cover;
+
+}
+
+/**** MENU CARDS ****/
+
+#custom_card {
+
+  max-width: 230px;
+  min-height:  300px;
+  left: 50%;
+  margin: 40px;
+  margin-left: -117.5px;
+  margin-right: 0px;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+}
+
+#custom_body {
+  background
+  
+}
+
+#card-text-custom {
+  color: white;
+  text-align: center;
+  font-family: 'lato';
+  font-weight: 100;
+}
+
+#cover {
+  background-color: rgba(0,0,0,0.4);
+  position: relative;
+  height 110%;
+  width: 100%;
+  padding: 20px;
+}
+
+#contact-section {
+  border-bottom: 10px;
+}
+
+#card-body-custom {
+  font-family: 'lato';
+
+}
+
+#sec {
+  border-top: solid black 5px;
+  border-bottom: solid black 5px;
+  
 }
