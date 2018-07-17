@@ -324,3 +324,20 @@ section #services li span {
   border-top: solid black 5px;
   border-bottom: solid black 5px;
 }
+
+
+
+@media only screen and (min-width: 650px) {
+  #pics {
+    height: 500px;
+    width: 500px;
+    border: none;
+    left: 50%;
+    position: relative;
+    margin-left: -250px;
+    border-top: none;
+  }
+  #background {
+    border-bottom: solid black 5px;
+  }
+}
