@@ -75,7 +75,7 @@ secondary_l {
   background-color: black;
   z-index: 1;
   display: block;
-  
+
 }
 
 
@@ -123,12 +123,15 @@ secondary_l {
 }
 
 #menu-head{
-  
+  color: white;
   text-align: center;
   padding: 10px;
+  padding-top: 12px;
   letter-spacing: 2px;
   position: relative;
-  font-family: lato;
+  font-family: 'Anton';
+  background-color: rgba(0,0,0,0.3);
+
 }
 
 #services-head {
@@ -154,16 +157,22 @@ secondary_l {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
+
+
   z-index: 1;
-  background-attachment: fixed;
+ /* background-attachment: fixed;*/
 }
 
 .pic2 {
-  color: white;
+  color: black;
   min-height: 200px;
-  background-image: url("pictures/20170327_194957-1.jpg");
-  background-size: cover;
 
+  background-image: url("pictures/backg.jpg");
+  background-size: contain;
+
+  background-color: black;
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 /**** MENU CARDS ****/
@@ -173,28 +182,33 @@ secondary_l {
   max-width: 230px;
   min-height:  300px;
   left: 50%;
-  margin: 40px;
+  margin: 10px;
   margin-left: -117.5px;
   margin-right: 0px;
-  background-color: transparent;
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0.4);
   border: none;
   border-radius: none;
+  color: white
+
+
 }
 
 #custom_body {
-  background
-  
+
+  padding-top: 0px;
 }
 
 #card-text-custom {
   color: white;
   text-align: center;
-  font-family: 'lato';
+  font-family: 'Anton';
   font-weight: 100;
+  padding-top: 15px;
 }
 
 #cover {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0);
   position: relative;
   height 110%;
   width: 100%;
@@ -206,7 +220,7 @@ secondary_l {
 }
 
 #card-body-custom {
-  font-family: 'lato';
+  font-family: 'Anton';
 
 }
 
@@ -214,4 +228,99 @@ secondary_l {
   border-top: solid black 5px;
   border-bottom: solid black 5px;
   
+}
+
+/***  CONTACT US ***/
+
+
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+  margin: 0;
+  padding: 0px;
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  background-color: black;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 80px;
+  height: 100px;
+  display: inline-block;
+  margin: 0px 10px;
+  list-style: none;
+}
+section #services li div {
+  width: 80px;
+  height: 100px;
+  padding: 0px;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 100px;
+  background-color: black;
+  transition: all 0.5s ease;
+}
+section #services li a {
+  color: #F9B733;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 80px;
+  height: 20px;
+  display: block;
+  padding: 5px 0px;
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+.credits a {
+  display: block;
+  text-align: center;
+  color: yellow;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 50px;
+  background-color: black;
+  padding: 20px;
+  max-width: 300px;
+}
+
+.services_pic {
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 20px;
+  
+
+}
+
+.menu_heading {
+  margin-bottom: 20px;
+}
+
+#collapseOne {
+  background-image: url(pictures/Orange_Texture_Backround-01.png);
+    border-top: solid black 5px;
+  border-bottom: solid black 5px;
+}
+
+#collapseTwo {
+  background-image: url(pictures/Orange_Texture_Backround-01.png);
+    border-top: solid black 5px;
+  border-bottom: solid black 5px;
+}
+
+#collapseThree {
+  background-image: url(pictures/Orange_Texture_Backround-01.png);
+  border-top: solid black 5px;
+  border-bottom: solid black 5px;
 }
