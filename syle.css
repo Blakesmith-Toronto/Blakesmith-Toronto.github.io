@@ -824,6 +824,9 @@ section #services li span {
     display: none;
   }
   
+  #add{
+    
+  }
   .image {
   display: block;
   width: 100%;
