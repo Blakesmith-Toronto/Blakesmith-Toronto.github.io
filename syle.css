@@ -8,7 +8,7 @@ html, body, img{
 }
 
 *{
-  font-family: 'Anton', sans-serif;
+  font-family:  'Anton', sans-serif;
   z-index: 1;
 }
 /**** NAV ****/
@@ -17,6 +17,7 @@ html, body, img{
 
 
 /**** LANDING PAGE ****/
+
 #moto{
   margin: 0;
   padding: 0 2.5%;
@@ -30,6 +31,28 @@ html, body, img{
 
 }
 
+.feat-icon img {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+  width: auto;
+}
+
+.feat-icon {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: center;
+  margin: 10px 30px 30px;
+}
+
+ .iconss {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+
 #background {
 
   width: 100%;
@@ -38,6 +61,7 @@ html, body, img{
   z-index: 1;
   margin: 0;
   padding: 15px 0px;
+  padding-bottom: 0px;
   
 
 
@@ -45,10 +69,12 @@ html, body, img{
 
 #main_l {
   font-size: 30px;
+  margin-bottom: 0px;
 }
 
 secondary_l {
   font-size: 15px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -64,17 +90,19 @@ secondary_l {
   }
   #secondary_l {
   font-size: 15px;
+
 }
 }
 
 #pics {
   width: 100%;
-  margin-top: -16px;
+  margin-top: -10px;
   margin-left: 0%;
   padding: 5px 0px;
   background-color: black;
-  z-index: 1;
+  z-index: 0;
   display: block;
+
 
 }
 
@@ -89,6 +117,7 @@ secondary_l {
   z-index: 3;
   background-color: rgba(0, 0, 0, 0);
   margin-top: -5px;
+  padding:  0px;
 
 }
 
@@ -136,17 +165,17 @@ secondary_l {
 
 #services-head {
   padding-bottom: 10px;
-  text-align: left;
-  margin-left: -11px;
-  text-decoration: underline;
+  text-align: center;
+
 }
 
 #contact-head{
   padding-top: 15px;
   padding-bottom: 10px;
-  text-align: right;
-  margin-right: -11px;
-  text-decoration: underline;
+  text-align: center;
+
+
+  
 }
 
 #new_button {
@@ -175,6 +204,17 @@ secondary_l {
   background-repeat: repeat-y;
 }
 
+#pics1{
+  display: none;
+}
+
+.call {
+  margin: auto;
+  position: relative;
+  height: auto;
+  width: 80%;
+}
+
 /**** MENU CARDS ****/
 
 #custom_card {
@@ -190,8 +230,6 @@ secondary_l {
   border: none;
   border-radius: none;
   color: white
-
-
 }
 
 #custom_body {
@@ -230,9 +268,8 @@ secondary_l {
   
 }
 
+
 /***  CONTACT US ***/
-
-
 
 section #services {
   text-align: center;
@@ -240,13 +277,17 @@ section #services {
   margin: 0;
   padding: 0px;
 }
+
 section #services h2 {
   margin: 80px 0px 40px;
   background-color: black;
   font-size: 2.4em;
   text-transform: uppercase;
   text-align: center;
+
 }
+
+
 section #services li {
   width: 80px;
   height: 100px;
@@ -254,6 +295,7 @@ section #services li {
   margin: 0px 10px;
   list-style: none;
 }
+
 section #services li div {
   width: 80px;
   height: 100px;
@@ -265,13 +307,16 @@ section #services li div {
   background-color: black;
   transition: all 0.5s ease;
 }
+
 section #services li a {
   color: #F9B733;
 }
+
 section #services li div:hover {
   transform: rotate(360deg);
   border-radius: 100px;
 }
+
 section #services li span {
   width: 80px;
   height: 20px;
@@ -282,6 +327,7 @@ section #services li span {
   font-size: 1.2em;
   text-align: center;
 }
+
 .credits a {
   display: block;
   text-align: center;
@@ -295,16 +341,22 @@ section #services li span {
 }
 
 .services_pic {
-  height: 200px;
-  width: 100%;
+  height: 150px;
+  width: 200px;
+
   margin: 0px;
   margin-bottom: 20px;
-  
 
+  position: relative;
+  border: solid black;
 }
 
 .menu_heading {
   margin-bottom: 20px;
+}
+
+#button_custom {
+  
 }
 
 #collapseOne {
@@ -325,9 +377,91 @@ section #services li span {
   border-bottom: solid black 5px;
 }
 
+#hide {
+    display: none;
+  }
+
+#cus_but {
+    left: 50%;
+    position: relative;
+    margin-left: -69px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+  }
+
+@media only screen and (max-width: 800px) {
+#desktop_card{
+  display: none;
+}
+  .wrapper {
+  display: none;
+}
+  #icon{
+    display: none;
+  }
+  #social {
+    font-size: 20px;
+    width: 300px;
+    margin: 0;
+    left: 50%;
+    margin-left: -150px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  #email {
+    margin: 0px;
+    font-size: 18px;
+    position: relative;
+    left: 50%;
+    width: 250px;
+    margin-left: -90px;
+    margin-top: -48px;
+    margin-bottom: 30px;
+    
+
+  }
+  #contact {
+    width: 99%;
+
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
 
 
-@media only screen and (min-width: 650px) {
+  }
+  #cus_but {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+  }
+  #mail {
+    left: 10px;
+    position: relative;
+  }
+  #phone{
+    margin-left: 50px;
+  }
+  #number {
+
+    position: relative;
+    margin-top: -54px;
+    font-size: 25px;
+    margin-left: -100px;
+    width: 250px;
+    left: 50%;
+  }
+  
+  
+}
+@media only screen and (min-width: 800px) {
+
+  .card-deck{
+    position: relative;
+    top: 90px;
+  }
+  
   #pics {
     height: 500px;
     width: 500px;
@@ -337,7 +471,380 @@ section #services li span {
     margin-left: -250px;
     border-top: none;
   }
-  #background {
-    border-bottom: solid black 5px;
+  
+  .call {
+    display: none;
   }
+
+  #background {
+      width: 100%;
+      height: 101%;
+      background-image: url("pictures/Orange_Texture_Backround-01.png");
+      z-index: 1;
+      margin: 0;
+      padding: 15px 0px;
+      background-size: cover;
+
+      border-bottom: solid black 5px;
+
+
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      
+  }
+  #contact-head {
+    text-align: center;
+  }
+  #fix{
+    display: none;
+  }
+  #services-head {
+    text-align: center;
+
+  }
+  #pics {
+    display: none;
+  }
+  #main_logo {
+    margin: 0;
+    margin-left: -200px;
+    margin-right: 0px;
+    height: 250px;
+    width: 400px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 0;
+  }
+  #moto {
+    margin-top: 0px;
+    width: 100%;
+
+  }
+  #main_l {
+    display: block;
+    font-size: 40px;
+    width: 100%;
+  }
+  #secondary_l {
+    font-size: 23px;
+    margin-top: 10px;
+  }
+  #pics1{
+  width: 80%;
+  height: 40%;
+  display: inherit;
+  }
+  #main_unit{
+    position: absolute;
+    top: 50%;
+    height: 500px;
+    width: 600px;
+    margin-top: -250px;
+    padding-top: 25px;
+    left: 50%;
+    margin-left: -300px;
+    background-color: rgba(0,0,0,0);
+    padding: 20px;
+    text-align: center;
+  }
+  /*
+  .pic2{
+    background-image: url("pictures/back2.jpg");
+    background-size: cover;
+    height: 800px;
+  }
+  */
+  #cover {
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    height: 100%;
+
+    margin-bottom: -100px;
+  }
+  .ptext{
+    padding: 0;
+    margin: 0px;
+  }
+  .pic2{
+    background-image: url(pictures/this_one%20copy.jpg);
+    background-attachment: fixed;
+    height: 750px;
+    background-size: cover;
+    padding: 0px;
+  }
+  #mobile_cards {
+    display: none;
+  }
+  
+  #custom_card {
+
+  max-width: 300px;
+  height:  50px;
+  left: 0%;
+
+  background-color: rgba(0,0,0,0);
+  border: none;
+  border-radius: none;
+  color: white;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+
+
+
 }
+   #custom_card2 {
+
+  max-width: 300px;
+  height:  50px;
+  left: 0%;
+
+  background-color: rgba(0,0,0,0);
+  border: none;
+  border-radius: none;
+  color: white;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  padding-top: 40px;
+
+
+
+}
+  #desktop_card{
+    width: 1000px;
+    left: 50%;
+    position: absolute;
+    margin-left: -500px;
+    
+  }
+  
+  
+
+  
+  #custom_body {
+    background-color: rgba(0,0,0,0);
+  }
+
+  .card-img-top {
+    height: 250px;
+  }
+  
+  #menu-head {
+    width: 940px;
+    left: 50%;
+    margin-left: -470px;
+    margin-bottom: 50px;
+    background-color: transparent;
+  
+  }
+  #accordionExample {
+    width: 940px;
+    left: 50%;
+    position: relative;
+    margin-left: -470px;
+  }
+  #icon {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+  
+  #cus_but {
+    left: 50%;
+    position: relative;
+    margin-left: -69px;
+    margin-bottom: 50px;
+    margin-top: 520px;
+  }
+  
+  #contact {
+    width: 400px;
+    position: relative;
+    left: 50%;
+
+    text-align: center;
+    margin: 20px;
+    margin-left: -200px;
+
+  }
+  .iconss {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+  #info {
+    margin: 30px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  #number {
+    font-size: 25px;
+    margin-top: -56px;
+    position: relative;
+    margin-left: 0px;
+    text-align: center;
+  }
+  #email {
+    font-size: 20px;
+    margin-top: -50px;
+    position: relative;
+    margin-left: 70px;
+    
+    
+  }
+  #accordionExample {
+   #display: none; 
+  }
+  #cus_img {
+    
+    height: 200px;
+    
+  }
+  .new {
+    margin-top: 4000px;
+  }
+  #phone {
+    margin-left: 30px
+  }
+  
+  .pic3 {
+  color: black;
+  min-height: 400px;
+
+  background-image: url("pictures/this_one.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  opacity: 0.8;
+  
+
+
+  }
+  #contact {
+    width: 400px;
+    position: relative;
+    left: 50%;
+
+    text-align: center;
+    margin: 20px;
+    margin-left: -200px;
+
+  }
+  .wrapper{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   background-color: #cccccc;
+   height: 413px;
+   margin-bottom: 30px;
+   border-top: black solid 5px;
+   border-bottom: black solid 5px;
+   margin-top: -60px;
+    
+}
+.left1{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 28%;
+   background-color: #ccccff;
+   height: 408px;
+   border-bottom: solid black 5px;
+    margin: 0px;
+  padding: 0px;
+
+}
+.left2{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 28%;
+   background-color: #ccccff;
+   height: 408px;
+   border-bottom: solid black 5px;
+      margin: 0px;
+  padding: 0px;
+
+}
+.left3{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 28%;
+   background-color: #ccccff;
+   height: 408px;
+   border-bottom: solid black 5px;
+      margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+
+}
+.right{
+ position: relative;
+ float: right;
+ right: 0.00%;
+ width: 16%;
+ background-color: #ccccff;
+ height: 408px;
+ border-bottom: solid black 5px;
+ background-color: black;
+ background-image: url("pictures/texture-red-white-checkered-picnic-blanket-linen-tablecloth-40418153.jpg")
+
+}
+  #services-head {
+    position: relative;
+    z-index: 20;
+    display: none;
+  }
+  
+  .image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+}
+
+
+ 
