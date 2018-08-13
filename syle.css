@@ -160,6 +160,7 @@ secondary_l {
   position: relative;
   font-family: 'Anton';
   background-color: rgba(0,0,0,0.3);
+  padding-bottom: 0px;
 
 }
 
@@ -386,7 +387,7 @@ section #services li span {
     position: relative;
     margin-left: -69px;
     margin-bottom: 100px;
-    margin-top: 80px;
+    margin-top: 0px;
   }
 
 @media only screen and (max-width: 800px) {
@@ -459,7 +460,7 @@ section #services li span {
 
   .card-deck{
     position: relative;
-    top: 90px;
+    margin-top: -80px;
   }
   
   #pics {
@@ -569,7 +570,7 @@ section #services li span {
   .pic2{
     background-image: url(pictures/this_one%20copy.jpg);
     background-attachment: fixed;
-    height: 750px;
+    height: 820px;
     background-size: cover;
     padding: 0px;
   }
@@ -636,8 +637,11 @@ section #services li span {
     width: 940px;
     left: 50%;
     margin-left: -470px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     background-color: transparent;
+    font-size: 50px;
+    padding-bottom: 30px;
+    margin-top: 20px;
   
   }
   #accordionExample {
@@ -660,7 +664,7 @@ section #services li span {
     position: relative;
     margin-left: -69px;
     margin-bottom: 50px;
-    margin-top: 520px;
+    margin-top: 480px;
   }
   
   #contact {
@@ -735,7 +739,7 @@ section #services li span {
     margin: 20px;
     margin-left: -200px;
 
-  }
+}
   .wrapper{
    position: relative;
    float: left;
@@ -747,8 +751,9 @@ section #services li span {
    border-top: black solid 5px;
    border-bottom: black solid 5px;
    margin-top: -60px;
-    
+   font-family: 'Lato';  
 }
+
 .left1{
    position: relative;
    float: left;
@@ -795,9 +800,24 @@ section #services li span {
  height: 408px;
  border-bottom: solid black 5px;
  background-color: black;
- background-image: url("pictures/texture-red-white-checkered-picnic-blanket-linen-tablecloth-40418153.jpg")
+ background-image: url("pictures/texture-red-white-checkered-picnic-blanket-linen-tablecloth-40418153.jpg");
+  color: transparent;
 
 }
+  .right:hover{
+ position: relative;
+ float: right;
+ right: 0.00%;
+ width: 16%;
+ background-color: #ccccff;
+ height: 408px;
+ border-bottom: solid black 5px;
+ background-color: black;
+ opacity: 0.4;
+ background-image: url("pictures/texture-red-white-checkered-picnic-blanket-linen-tablecloth-40418153.jpg");
+ color: black;
+}
+
   #services-head {
     position: relative;
     z-index: 20;
