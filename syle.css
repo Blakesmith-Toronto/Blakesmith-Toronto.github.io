@@ -774,7 +774,7 @@ section #services li span {
    background-color: #ccccff;
    height: 408px;
    border-bottom: solid black 5px;
-      margin: 0px;
+   margin: 0px;
   padding: 0px;
 
 }
@@ -786,9 +786,9 @@ section #services li span {
    background-color: #ccccff;
    height: 408px;
    border-bottom: solid black 5px;
-      margin: 0px;
+  margin: 0px;
   padding: 0px;
-  padding-bottom: 10px;
+
 
 }
 .right{
@@ -830,7 +830,7 @@ section #services li span {
   .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%l;
 
   
 }
